@@ -40,3 +40,7 @@ body {
     margin-bottom: 2px;
     border: 2px sold #6C4B5E;
 }
+
+a {
+    text-decoration: none;
+}
