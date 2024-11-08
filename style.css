@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(178, 152, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 400px;
+    background-color: rgb(108, 75, 94);
+    margin: 16px auto;
+    padding: 8px;
+    border: 2px solid rgb(108, 75, 94);
+    border-radius: 5px;
+}
+
+.title {
+    background-color: rgb(122, 92, 88);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(130, 221, 240);
+}
+
+.recipes {
+    background-color: rgb(122, 92, 88);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(130, 221, 240);
+    list-style-type: none;
+}
+
+.recipe {
+    display: inline-block;
+    background-color: #B298DC;
+    padding: 10px;
+    border-radius: 2px;
+    margin-left: -3px;
+    margin-bottom: 2px;
+    border: 2px sold #6C4B5E;
+}
