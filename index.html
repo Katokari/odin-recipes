@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pangolin&display=swap" rel="stylesheet">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <div class="card">
-        <h1 class="title">Odin Recipes</h1>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">Odin Recipes</h1>
+            <button id="show">Show Recipes</button>
+        </div>
 
-        <ul class="recipes">
-            <li class="recipe"><a href="./tuna-pasta.html">Tuna Pasta</a></li>
-            <li class="recipe"><a href="./garlic-shrimp-pasta.html">Garlic Shrimp Pasta</a></li>
-            <li class="recipe"><a href="./vegetable-stir-fry-noodles.html">Vegetable Stir-Fry Noodles</a></li>
-        </ul> 
+        <div class="recipes">
+            <ul>
+                <li class="recipe"><a href="./tuna-pasta.html">Tuna Pasta</a></li>
+                <li class="recipe"><a href="./garlic-shrimp-pasta.html">Garlic Shrimp Pasta</a></li>
+                <li class="recipe"><a href="./vegetable-stir-fry-noodles.html">Vegetable Stir-Fry Noodles</a></li>
+            </ul> 
+        </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
